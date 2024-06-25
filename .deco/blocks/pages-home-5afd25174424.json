@@ -1,0 +1,36 @@
+{
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<h1>Welcome to our vibrant cafe</h1><p></p>",
+      "description": "where every visit promises a delightful culinary journey. Nestled in the heart of Darjeeling, our cafeteria offers a warm and inviting atmosphere perfect for casual dining and quick bites. Whether you're stopping by for a hearty breakfast, a leisurely lunch, or a rejuvenating coffee break, our menu boasts a variety of freshly prepared dishes crafted with care and creativity. From savory sandwiches to wholesome salads, each item is thoughtfully curated to satisfy every palate."
+    },
+    {
+      "__resolveType": "site/sections/MainPost.tsx",
+      "post": {
+        "__resolveType": "blog/loaders/BlogPostItem.ts",
+        "slug": "why-we-web"
+      }
+    },
+    {
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "posts": {
+        "__resolveType": "blog/loaders/BlogpostList.ts",
+        "count": 6
+      }
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website"
+  }
+}
