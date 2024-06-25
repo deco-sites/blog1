@@ -3,12 +3,17 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "Header"
+      "__resolveType": "site/sections/Header.tsx",
+      "navigation": {
+        "links": [],
+        "buttons": []
+      }
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
       "title": "<h1>Welcome to our vibrant cafe</h1><p></p>",
-      "description": "where every visit promises a delightful culinary journey. Nestled in the heart of Darjeeling, our cafeteria offers a warm and inviting atmosphere perfect for casual dining and quick bites. Whether you're stopping by for a hearty breakfast, a leisurely lunch, or a rejuvenating coffee break, our menu boasts a variety of freshly prepared dishes crafted with care and creativity. From savory sandwiches to wholesome salads, each item is thoughtfully curated to satisfy every palate."
+      "description": "where every visit promises a delightful culinary journey. Nestled in the heart of Darjeeling, our cafeteria offers a warm and inviting atmosphere perfect for casual dining and quick bites. Whether you're stopping by for a hearty breakfast, a leisurely lunch, or a rejuvenating coffee break, our menu boasts a variety of freshly prepared dishes crafted with care and creativity. From savory sandwiches to wholesome salads, each item is thoughtfully curated to satisfy every palate.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10933/5f558921-bc34-4ce5-a342-6f9d8d0014f8"
     },
     {
       "__resolveType": "site/sections/MainPost.tsx",
